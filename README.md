@@ -4,7 +4,7 @@ Welcome to my cybersecurity portfolio. This repository contains hands-on cyberse
 
 ## Projects
 
-| Passive Network Footprint Analysis using nslookup, WHOIS, DNSDumpster, and BuiltWith. | Investigation of a phishing email and documentation of the analysis process. |
+| Passive Network Footprint Analysis. | Investigation of a phishing email and documentation of the analysis process. |
 
 Additional projects will be added over time.
 
@@ -15,7 +15,7 @@ Additional projects will be added over time.
 - DNSDumpster
 - BuiltWith
 - VirusTotal
-- CyberChef
+
 
 ## Disclaimer
 
