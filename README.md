@@ -48,18 +48,17 @@ I am a Computer Science and Engineering student with a strong interest in cybers
 
 Hands-on SIEM detection-engineering work built on the Elastic Stack (Elasticsearch + Kibana), covering correlation rule development, dashboard design, and a simulated multi-stage attack chain with supporting threat-intelligence artifacts.
 
-| Folder | Description |
+| Project | Description |
 |---|---|
-| [`siem-correlation-rules/`](./siem-correlation-rules) | Three correlation rules detecting credential stuffing, DNS tunneling, and malicious PowerShell execution, with a synthetic log generator |
-| [`siem-dashboard/`](./siem-dashboard) | A six-panel Kibana dashboard visualizing the detections above |
-| [`multi-stage-attack-simulation/`](./multi-stage-attack-simulation) | An extended, log-based simulation of a multi-stage attack chain (phishing → persistence → lateral movement → exfiltration), including generic Sigma/YARA detection rules and IoC documentation |
+| [SIEM Correlation Rule Development](./siem-correlation-rules) | Three correlation rules detecting credential stuffing, DNS tunneling, and malicious PowerShell execution, with a synthetic log generator |
+| [SIEM Dashboard Design](./siem-dashboard) | A six-panel Kibana dashboard visualizing the detections above |
+| [Multi-Stage Attack Detection Simulation](./multi-stage-attack-simulation) | An extended, log-based simulation of a multi-stage attack chain (phishing → persistence → lateral movement → exfiltration), including generic Sigma/YARA detection rules and IoC documentation |
 
 Rather than requiring live infrastructure or executing real exploit code, the correlation rules and dashboard are built and validated against realistic synthetic log data engineered to reproduce the network/endpoint footprint of specific, well-documented attack techniques (mapped to MITRE ATT&CK). Every rule was independently tested against known "ground truth" attack data before being finalized.
 
 **Tools used:** Elasticsearch, Kibana (Lens, Alerting Rules, Dev Tools Console), Python (synthetic data generation), Sigma, YARA.
 
 **A note on how this was built:** this was a guided learning project. My background and focus is SOC analysis, not software development — the value I was building here is in SIEM configuration, log investigation, and detection logic, not in writing Python. All Kibana configuration — data views, correlation rules, dashboard panels, and troubleshooting along the way — was implemented and independently tested by me, step by step, in my own Elastic Cloud environment. The synthetic data generator scripts, detection-rule content (Sigma/YARA), and documentation in these folders were produced with AI assistance (Claude) as part of that learning process. I'm noting this plainly rather than presenting it as unassisted work.
-
 
 
 ## Disclaimer
