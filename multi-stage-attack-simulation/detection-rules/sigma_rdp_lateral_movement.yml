@@ -1,0 +1,37 @@
+title: Multiple Failed RDP Authentication Attempts to Domain Controller
+id: 9d4e7b1a-2f6c-4a8d-b3e5-6c7d8e9f0a1b
+status: experimental
+description: >
+  Detects a burst of failed RDP authentication attempts from a single
+  source host toward a Domain Controller, consistent with lateral
+  movement following an initial compromise. Normal administrative RDP
+  usage rarely produces double-digit failures within a short window.
+author: SOC Internship - Detection Engineering Exercise
+date: 2026/08/02
+references:
+  - https://attack.mitre.org/techniques/T1021/001/   # Remote Services: RDP
+  - https://attack.mitre.org/techniques/T1110/       # Brute Force
+logsource:
+  product: windows
+  service: security
+  category: authentication
+detection:
+  selection:
+    EventID: 4625            # An account failed to log on
+    LogonType: 10            # RemoteInteractive (RDP)
+  filter_target:
+    # Adjust to your environment's actual DC hostname/IP indicator field
+    TargetHost|contains: 'DC'
+  timeframe: 10m
+  condition: selection and filter_target | count() by SourceAddress > 10
+falsepositives:
+  - Legitimate administrators troubleshooting RDP connectivity issues
+    (e.g., repeated attempts after a password change propagation delay).
+  - Scheduled credential-rotation scripts that briefly use a stale
+    password before failing over to the new one.
+level: high
+tags:
+  - attack.lateral_movement
+  - attack.t1021.001
+  - attack.credential_access
+  - attack.t1110

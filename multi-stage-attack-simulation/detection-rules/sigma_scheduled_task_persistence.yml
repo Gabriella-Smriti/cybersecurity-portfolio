@@ -1,0 +1,36 @@
+title: Suspicious Scheduled Task Creation with Encoded PowerShell Command
+id: 7f3b6a2e-4c1d-4e9a-9b2f-1a2b3c4d5e6f
+status: experimental
+description: >
+  Detects creation of a scheduled task whose command references an encoded
+  PowerShell command, a common living-off-the-land persistence technique
+  used after initial compromise (e.g., following a phishing-delivered
+  macro payload). Legitimate scheduled tasks rarely invoke PowerShell with
+  an -Enc/-EncodedCommand argument.
+author: SOC Internship - Detection Engineering Exercise
+date: 2026/08/02
+references:
+  - https://attack.mitre.org/techniques/T1053/005/   # Scheduled Task/Job
+  - https://attack.mitre.org/techniques/T1027/       # Obfuscated Files or Information
+logsource:
+  product: windows
+  service: security
+  category: process_creation
+detection:
+  selection_event:
+    EventID: 4698
+  selection_command:
+    CommandLine|contains|all:
+      - 'powershell'
+      - '-Enc'
+  condition: selection_event and selection_command
+falsepositives:
+  - Legitimate administrative automation that intentionally uses encoded
+    PowerShell commands (rare; should be allow-listed by task name/hash
+    rather than excluded from this rule).
+level: high
+tags:
+  - attack.persistence
+  - attack.t1053.005
+  - attack.defense_evasion
+  - attack.t1027
